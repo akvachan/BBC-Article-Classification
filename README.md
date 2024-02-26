@@ -13,12 +13,11 @@ This project demonstrates the use of TensorFlow to classify BBC news articles in
 
 ## Project Structure
 bbc-article-classification/
-│
-├── bbc-text.csv - Dataset file containing the BBC articles and their labels.
-├── bbc_article_classification.ipynb - Jupyter notebook with the project's code.
-├── vecs.tsv - Output file containing word vectors for visualization.
-├── meta.tsv - Output file containing metadata for word vectors.
-└── README.md - This file.
+bbc-text.csv - Dataset file containing the BBC articles and their labels.
+bbc_article_classification.ipynb - Jupyter notebook with the project's code.
+vecs.tsv - Output file containing word vectors for visualization.
+meta.tsv - Output file containing metadata for word vectors.
+README.md - This file.
 
 
 ## Getting Started
