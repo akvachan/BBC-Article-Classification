@@ -11,27 +11,6 @@ This project demonstrates the use of TensorFlow to classify BBC news articles in
 - Evaluation of model performance through accuracy and loss metrics.
 - Visualization of training process and word embeddings.
 
-## DN Architecture
-Model: "sequential"
-_________________________________________________________________
- Layer (type)                Output Shape              Param #   
-=================================================================
- embedding_3 (Embedding)     (None, 120, 16)           16000     
-                                                                 
- flatten_3 (Flatten)         (None, 1920)              0         
-                                                                 
- dense_5 (Dense)             (None, 128)               245888    
-                                                                 
- dropout_1 (Dropout)         (None, 128)               0         
-                                                                 
- dense_6 (Dense)             (None, 5)                 645       
-                                                                 
-=================================================================
-Total params: 262533 (1.00 MB)
-Trainable params: 262533 (1.00 MB)
-Non-trainable params: 0 (0.00 Byte)
-_________________________________________________________________
-
 ## Project Structure
 bbc-article-classification/
 - bbc-text.csv - Dataset file containing the BBC articles and their labels.
