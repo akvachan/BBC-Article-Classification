@@ -1,4 +1,5 @@
-# BBC-Article-Classification
+# bbc-classification
+
 BBC Article Classification and Visualisation using Embeddings and Dense Neural Network
 
 <img width="680" alt="Embeddings" src="https://github.com/user-attachments/assets/182f3b8c-1c01-4e30-9743-9a2a4c26d4e6" />
